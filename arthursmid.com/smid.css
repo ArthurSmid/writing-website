@@ -1,49 +1,75 @@
+html {
+  height: 100%;
+}
+
 body {
- background-color: #FCFCFC;
- font-family: "Helvetica Neue";
- font-size: 0.925em;
- line-height: 1.50;
+  background-color: #FCFCFC;
+  font-family: "Helvetica Neue";
+  font-size: 0.925em;
+  line-height: 1.50;
+  height: 100%;
 }
 header {
+  width: 100%;
   color: #334d4d;
   background-color: white;
-  display: flex;
+  position: fixed;
   padding: 5px 15px;
-  border-bottom: solid .3em #F5F5F5
+  border-bottom: solid .3em #F5F5F5 hide;
+  box-shadow: 0px 4px 3px 0px #eee;
+  justify-content: space-between;
 }
 header h1 {
-    font-size: 1.1em;
-    font-weight: 700;
-    padding: 5px 34px 4px 7px;
+  font-size: 1.1em;
+  font-weight: 700;
+  padding: 5px 34px 4px 7px;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  header {
+    display: flex;
+  }
+  header h1 {
+    text-align: left;
+  }
 }
 nav, ul, li {
-  display: inline-block;
   vertical-align: top;
   padding: 2px 9px 0 0;
 }
-nav {
-  text-align: right;
+ul {
+  display: flex;
+}
+li {
+  flex: 1 0 25%;
+  text-align: center;
 }
 a {
   text-decoration: none;
   color: #334d4d;
 }
 
-.statements {
+.headings, .statements {
   text-align: center;
   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
-.statements p {
-  padding-top: 40%;
-  display: inline-block;
+.headings h2 {
   font-size: 3em;
   font-weight: 500;
   color: #334d4d;
   font-family: "Helvetica Neue";
+  padding: 0 .25em;
 }
 
-@media only screen and (min-width: 50em){
-  .statements p {
-    padding-top: 21%;
-}
+.statements {
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #334d4d;
+  font-family: "Helvetica Neue";
 }
