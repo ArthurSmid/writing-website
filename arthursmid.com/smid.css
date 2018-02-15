@@ -1,55 +1,49 @@
-/* css reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+ background-color: #FCFCFC;
+ font-family: "Helvetica Neue";
+ font-size: 0.925em;
+ line-height: 1.50;
 }
-ol, ul {
-	list-style: none;
+header {
+  color: #334d4d;
+  background-color: white;
+  display: flex;
+  padding: 5px 15px;
+  border-bottom: solid .3em #F5F5F5
 }
-blockquote, q {
-	quotes: none;
+header h1 {
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 5px 34px 4px 7px;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+nav, ul, li {
+  display: inline-block;
+  vertical-align: top;
+  padding: 2px 9px 0 0;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+nav {
+  text-align: right;
 }
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+a {
+  text-decoration: none;
+  color: #334d4d;
+}
 
-/* box sizing: padding and border included in width of block element*/
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+.statements {
+  text-align: center;
+  width: 100%;
+}
+.statements p {
+  padding-top: 40%;
+  display: inline-block;
+  font-size: 3em;
+  font-weight: 500;
+  color: #334d4d;
+  font-family: "Helvetica Neue";
+}
+
+@media only screen and (min-width: 50em){
+  .statements p {
+    padding-top: 21%;
+}
 }
