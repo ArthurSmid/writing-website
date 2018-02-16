@@ -90,8 +90,58 @@ a {
   padding: 0em 1em 10em 1em;
 }
 footer {
-  padding: 2em 0 2.5em 2em;
+  padding: 2em 0 2.5em 0em;
   background-color: white;
   text-align: center;
   border-top: solid .3em #F5F5F5;
+}
+/* end of styles for index.html */
+
+.header {
+  position: relative;
+}
+.book {
+  padding: 2em;
+}
+.book h1 {
+  font-size: 2.75em;
+  font-weight: 400;
+  text-align: center;
+  padding: 2em 0 1.25em 0;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.book h2, .post h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  padding: 2em 0 1em 0;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.pages p {
+  font-size: 1.1em;
+  font-weight: 200;
+  line-height: 1.6em;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+#description {
+  font-size: 1.5em;
+  padding-bottom: 15em;
+}
+/* end of styles for books.html */
+
+notebook {
+    position: relative;
+  }
+}
+.post {
+  display: flex;
+}
+.post h2 {
+
+}
+article h2 {
+  clear: both;
 }
