@@ -134,9 +134,20 @@ footer {
 
 .notebook {
   padding: 1em;
-  max-width: 30em;
+  }
+@media (min-width: 767px) {
+  .notebook {
+   display: flex;
+   flex-direction: row;
   }
 }
+
+article {
+
+}
+article h2 {
+  clear: both;
+}
 .post {
-  display: flex;
+
 }
