@@ -139,12 +139,14 @@ footer {
   .notebook {
    display: flex;
    flex-direction: row;
+   justify-content: space-between;
+  /* flex-wrap: wrap; */
+  }
+  article {
+   width: 30%;
   }
 }
 
-article {
-
-}
 article h2 {
   clear: both;
 }
