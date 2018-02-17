@@ -139,17 +139,29 @@ footer {
   .notebook {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
-  /* flex-wrap: wrap; */
+   justify-content: space-evenly;
+   flex-wrap: wrap;
   }
-  article {
-   width: 30%;
+  .post {
+   width: 28em;
+   padding: 0 1em 1em 0;
   }
-}
+} /* end of media query */
 
 article h2 {
   clear: both;
 }
+article h3 {
+  font-size: 1.25em;
+  font-weight: 300;
+  line-height: 1.6em hide;
+  text-align: center;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.italic {
+  font-style: italic;
+}
 .post {
-
+  padding: 0 0 3em 0;
 }
