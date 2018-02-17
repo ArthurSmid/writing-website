@@ -119,7 +119,7 @@ footer {
   color: #334d4d;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
-.pages p {
+.pages p, .post p {
   font-size: 1.1em;
   font-weight: 200;
   line-height: 1.6em;
@@ -132,16 +132,11 @@ footer {
 }
 /* end of styles for books.html */
 
-notebook {
-    position: relative;
+.notebook {
+  padding: 1em;
+  max-width: 30em;
   }
 }
 .post {
   display: flex;
-}
-.post h2 {
-
-}
-article h2 {
-  clear: both;
 }
