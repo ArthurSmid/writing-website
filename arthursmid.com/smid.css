@@ -122,7 +122,7 @@ footer {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 .pages {
-  max-width: 60em;
+  max-width: 52em;
   margin: auto;
 }
 .pages p, .post p, .post-page p {
@@ -174,7 +174,7 @@ article h3 {
 /* notebook-page styles */
 .notebook-page {
   padding: 1em 1em 4em 1em;
-  max-width: 67em;
+  max-width: 52em;
   margin: auto;
 }
 .post-page {
@@ -187,11 +187,12 @@ img {
 @media (min-width: 767px) {
   img {
     float: right;
-    width: 36em;
+    width: 26em;
     padding: 1em 0 1em 1em;
   }
   .full-screen {
     width: 100%;
+    padding: 0 0 1em 0;
   }
 }
 /* end of notebook-page styles */
@@ -205,7 +206,7 @@ img {
   padding: 4em 1em 1em 1em;
 }
 .about {
-  max-width: 60em;
+  max-width: 52em;
   margin: auto;
 }
 /* end of about style */
