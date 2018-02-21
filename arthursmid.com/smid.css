@@ -103,7 +103,7 @@ footer {
   position: relative;
 }
 .book {
-  padding: 2em;
+  padding: 1.75em;
 }
 .book h1 {
   font-size: 2.75em;
@@ -139,7 +139,7 @@ footer {
 /* end of styles for books.html */
 /* notebook */
 .notebook {
-  padding: 1em;
+  padding: 1.75em;
   }
 @media (min-width: 767px) {
   .notebook {
@@ -159,7 +159,6 @@ article h2 {
 article h3 {
   font-size: 1.25em;
   font-weight: 300;
-  line-height: 1.6em hide;
   text-align: center;
   color: #334d4d;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -203,10 +202,38 @@ img {
   line-height: 1.6em;
   color: black;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-  padding: 4em 1em 1em 1em;
+  padding: 4em .75em 1em .75em;
 }
 .about {
   max-width: 52em;
   margin: auto;
 }
 /* end of about style */
+/* services style */
+.contact h2{
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  padding: 6em 1em 1em 1em;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.contact h3 {
+  font-size: 1.25em;
+  font-weight: 300;
+  text-align: center;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.contact-social {
+  font-size: 1.25em;
+  font-weight: 300;
+  text-align: center;
+  color: #334d4d;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 0 1.75em 6em 1.75em;
+}
+.services {
+  margin: 0 0 1em 0;
+}
+/* end of services styles */
