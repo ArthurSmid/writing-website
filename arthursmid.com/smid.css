@@ -8,7 +8,7 @@ body {
   font-size: 0.925em;
   line-height: 1.50;
   height: 100%;
-  padding-top: 4em;
+  padding-top: 3em;
 }
 header {
   width: 100%;
@@ -100,6 +100,10 @@ footer {
   border-top: solid .3em #F5F5F5;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: #334d4d;
+  font-weight: 200;
+}
+footer p {
+
 }
 /* end of styles for index.html */
 /* books */
@@ -173,7 +177,7 @@ article h3 {
 /* end of styles for notebook */
 /* notebook-page styles */
 .notebook-page {
-  padding: 1em 1em 4em 1em;
+  padding: 1.7em 1em 4em 1em;
   max-width: 52em;
   margin: auto;
 }
@@ -194,6 +198,17 @@ img {
     width: 100%;
     padding: 0 0 1em 0;
   }
+}
+figure {
+  font-weight: 200;
+  width: 26em;
+  float: right;
+}
+figcaption {
+  width: 26em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+
 }
 /* end of notebook-page styles */
 /* about style */
