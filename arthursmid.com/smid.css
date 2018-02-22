@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-size: 16px;
 }
 body {
   background-color: #FCFCFC;
@@ -7,6 +8,7 @@ body {
   font-size: 0.925em;
   line-height: 1.50;
   height: 100%;
+  padding-top: 4em;
 }
 header {
   width: 100%;
@@ -17,6 +19,8 @@ header {
   border-bottom: solid .3em #F5F5F5 hide;
   box-shadow: 0px 4px 3px 0px #eee;
   justify-content: space-between;
+  top: 0;
+  left: 0;
 }
 header h1 {
   font-size: 1.1em;
@@ -99,9 +103,6 @@ footer {
 }
 /* end of styles for index.html */
 /* books */
-.header {
-  position: relative;
-}
 .book {
   padding: 1.75em;
 }
@@ -214,7 +215,7 @@ img {
   font-size: 1.5em;
   font-weight: 400;
   text-align: center;
-  padding: 6em 1em 1em 1em;
+  padding: 3em 1em 1em 1em;
   color: #334d4d;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
