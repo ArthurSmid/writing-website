@@ -8,7 +8,7 @@ body {
   font-size: 0.925em;
   line-height: 1.50;
   height: 100%;
-  padding-top: 3em;
+  padding-top: 2em;
 }
 header {
   width: 100%;
@@ -102,9 +102,6 @@ footer {
   color: #334d4d;
   font-weight: 200;
 }
-footer p {
-
-}
 /* end of styles for index.html */
 /* books */
 .book {
@@ -177,7 +174,7 @@ article h3 {
 /* end of styles for notebook */
 /* notebook-page styles */
 .notebook-page {
-  padding: 1.7em 1em 4em 1em;
+  padding: 1.75em 1em 4em 1em;
   max-width: 52em;
   margin: auto;
 }
@@ -208,7 +205,22 @@ figcaption {
   width: 26em;
   padding-left: 1em;
   padding-bottom: 1em;
-
+}
+@media (max-width: 767px) {
+  figure {
+    width: 100%;
+  }
+  figcaption {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+blockquote {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 /* end of notebook-page styles */
 /* about style */
